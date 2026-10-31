@@ -93,6 +93,8 @@ Tools available to agents.
 - [ ] [docs/SALES_PROCESS.md](docs/SALES_PROCESS.md) — funnel & follow-up
 - [x] [docs/MARKETING_CHANNELS.md](docs/MARKETING_CHANNELS.md) — channel strategy (Instagram + TikTok confirmed; email/paid ads still TBD)
 - [x] [.claude/agents/research-agent.md](.claude/agents/research-agent.md) — Research Agent (done, ran first research pass)
-- [x] [.claude/agents/website-agent.md](.claude/agents/website-agent.md) — Website Agent (built site, live deploy pending — Vercel connector issue, manual deploy in progress)
-- [x] [.claude/agents/content-agent.md](.claude/agents/content-agent.md) — Content Agent (built)
-- [ ] `.claude/agents/marketing-agent.md`, `sales-agent.md`, `client-success-agent.md` — not yet built
+- [x] [.claude/agents/website-agent.md](.claude/agents/website-agent.md) — Website Agent (site is **live**: https://come-to-yourself.vercel.app, auto-deploys from [github.com/gaidoseg/come-to-yourself](https://github.com/gaidoseg/come-to-yourself) on push to `main`)
+- [x] [.claude/agents/content-agent.md](.claude/agents/content-agent.md) — Content Agent (built, ran first Reels batch)
+- [x] [.claude/agents/sales-agent.md](.claude/agents/sales-agent.md) — Sales Agent (built, ran first DM sequence + Clarity Call script)
+- [x] [.claude/agents/marketing-agent.md](.claude/agents/marketing-agent.md) — Marketing Agent (built, ran TikTok test-launch plan + funnel memo)
+- [x] [.claude/agents/client-success-agent.md](.claude/agents/client-success-agent.md) — Client Success Agent (built) — **all 6 agents complete**
