@@ -28,8 +28,9 @@ _(Not yet documented from real conversations — Sales Agent should log real obj
 | Objection | How we respond |
 |---|---|
 | "I've already tried therapy/coaching and nothing worked" | Lean on Emilie's own story — she tried therapy, running, yoga, medication before this method created lasting change |
-| "It's too expensive" / "6 months is a big commitment" | _to be drafted once pricing is set_ |
-| "I'm not sure it'll work for me" | _to be drafted_ |
+| "It's too expensive" | Program is €2,400 (or €450/mo x 6) — priced low-mid for the market intentionally while Emilie is early-stage; a payment plan exists. Frame as cost of 6 months of staying stuck vs. investing once, not as a hard sell. |
+| "6 months is a big commitment" | The length is the point — short fixes haven't worked for this audience before (see "already tried therapy" above); bi-weekly sessions + 24/7 WhatsApp support means it's not 6 months alone |
+| "I'm not sure it'll work for me" | Point to the 3 existing testimonials (`My profile/testimonials.md`) and the structured 12-step process — not a vague promise, a defined path. Avoid guarantees; be honest this is still a small testimonial base. |
 
 ## Language they use (pulled directly from landing page copy)
 - "I overthink everything"

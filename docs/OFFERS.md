@@ -5,7 +5,7 @@
 
 ## Offer 1: Come Home to Yourself
 - **Format:** 1:1, online
-- **Price:** _not listed on landing page — fill in_
+- **Price:** €2,400 full-pay (≈27,000 SEK), or 6 monthly installments of €450 (€2,700 total) — **founding-client/early pricing**, decided 2026-10-31. Positioned low-mid relative to market comparables (see `Reference/competitors/subconscious-reprogramming-coaches-2026.md`) since Emilie is early-stage and building her testimonial base; expected to rise as more results/testimonials come in.
 - **Length:** 6 months
 - **Sessions:** Bi-weekly 1:1 sessions
 - **Support between sessions:** 24/7 WhatsApp
@@ -23,6 +23,6 @@
 - **Goal:** Get the lead on a call to be assessed/sold into the 6-month program
 
 ## Pricing Notes
-- Payment plans available: _not specified — fill in_
-- Discounts/promotions policy: _not specified — fill in_
-- Upsell/downsell path between offers: _only one online offer currently; in-person offer would need its own path_
+- Payment plans available: Yes — 6 x €450/month (€2,700 total) vs. €2,400 full-pay
+- Discounts/promotions policy: Current price itself functions as early/founding pricing; no additional discounts defined. Revisit price upward once testimonial base grows beyond the current 3.
+- Upsell/downsell path between offers: only one online offer currently; in-person offer would need its own path
