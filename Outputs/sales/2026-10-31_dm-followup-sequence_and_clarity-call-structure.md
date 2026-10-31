@@ -1,5 +1,6 @@
 # Sales Assets — DM Follow-Up Sequence & Free Clarity Call Structure
 **Date drafted:** 2026-10-31
+**Updated:** 2026-10-31 — added pricing-reveal guidance and price/fit objection scripts now that real pricing exists in `docs/OFFERS.md` (€2,400 full-pay or 6x€450/month) and `docs/ICP.md` has real objection responses.
 **Drafted by:** Sales Agent
 **Status:** First draft — no prior sales assets existed before this.
 
@@ -50,7 +51,7 @@ Timing below is conceptual spacing, not a trigger to automate — Emilie sends t
 ---
 
 ### Notes for Emilie / flags for docs
-- Only one real objection currently exists in `docs/ICP.md` with a drafted response ("already tried things that didn't work"). The other two listed objections — "too expensive / 6 months is a big commitment" and "not sure it'll work for me" — are marked "to be drafted" and genuinely can't be scripted responsibly yet: pricing isn't finalized in `docs/OFFERS.md`. Recommend filling in pricing there, and logging real phrasing of these objections as they come up in actual DMs, so they can be addressed accurately rather than generically.
+- As of 2026-10-31, pricing exists in `docs/OFFERS.md` (€2,400 full-pay or 6x€450/month), and `docs/ICP.md` now has real responses for "too expensive," "6 months is a big commitment," and "I'm not sure it'll work for me." None of the DM messages above name a price — that's intentional; price belongs in the live Clarity Call conversation (see Asset 2, "Stating the Investment"), not in a DM. If a lead asks about price directly in DM before booking a call, that's a new pattern worth flagging — see note at the bottom of this document.
 - As real objections/questions come up in actual DM threads, flag them so they can be added to `docs/ICP.md`.
 
 ---
@@ -86,13 +87,23 @@ Bridge naturally from what she just shared — don't pitch cold.
   - 24/7 WhatsApp support between sessions
   - 12 modules delivered on Kajabi, built around the 12-step subconscious transformation process — rewiring subconscious patterns, releasing stored emotional blocks, building self-trust and inner safety, reconnecting with her authentic self
   - Outcome: moving from stuck/overwhelmed/disconnected to grounded, clear, confident — deep self-trust, inner peace, emotional freedom
-- Do not state a price in this conversation from this document — pricing isn't finalized in `docs/OFFERS.md` yet. Discuss investment/payment live, directly, in Emilie's own words, once that's defined.
+- Don't state the price yet in this step — hold it until fit has actually been discussed (see "Stating the Investment," step 4 below). Describe the program itself first so the price lands in context, not cold.
 - Do not reference the method's originator or other certified coaches — keep it about Emilie's own story, voice, and client results (per the `docs/BRAND.md` positioning decision, 2026-10-31).
 
 ### 4. Checking Fit (~3-5 min)
 - Ask directly: "Based on everything we just talked about, how does this feel to you?"
 - Let her ask questions — about the process, time commitment, what sessions look like, etc.
-- If helpful, reference a testimonial in your own words (e.g. a client who felt calmer and more in control, or who hit every goal she set) — see `My profile/testimonials.md`. Don't fabricate outcomes beyond what's documented there.
+- If helpful, reference a testimonial in your own words (e.g. a client who felt calmer and more in control, or who hit every goal she set) — see `My profile/testimonials.md`. Don't fabricate outcomes beyond what's documented there. If she asks how many clients you've worked with, answer honestly — there are currently 3 testimonials; frame it as early but real, not as a weakness to hide.
+
+#### Stating the Investment (new, now that pricing exists)
+Once she's expressed genuine interest or fit feels mutual — not before, and not as a cold pivot — state the price plainly and warmly, in one breath, without apologizing for it or burying it in a wall of words.
+
+- **When:** After step 4's fit check, once she's said something like "this really speaks to me" or asked a logistics question (how does it work, how do we start, etc.). If she asks about price earlier (even during Discovery), answer directly in the moment rather than deflecting to "later" — don't make her ask twice.
+- **How to say it (tone: plain, confident, no hedging):**
+  > "The program is €2,400 if you pay in full, or you can spread it over six monthly payments of €450 if that feels more doable — totally your choice, both options give you the same thing."
+- **Payment plan framing:** Present both options as equally valid, not as "full pay vs. a compromise." Don't lead with the higher number as an anchor or the monthly number as a trick to make it feel smaller — just state both plainly and let her choose what fits her life.
+- **No manufactured urgency:** Do not imply the price is about to rise, that spots are limited, or that she needs to decide quickly. (Note: `docs/OFFERS.md` mentions the price is "expected to rise" as the testimonial base grows — that's a future possibility, not a confirmed date or event, so it must never be used as a countdown or pressure tactic on a call. Only reference it if a specific increase is actually scheduled and Emilie confirms it.)
+- **After stating it:** Pause. Let her sit with the number. Resist the urge to fill the silence or immediately justify the price — if she has a reaction (hesitation, a question, "let me think"), that's the cue to move into objection-handling (see Asset 3 below), not to keep selling past it.
 
 ### 5. Close (~3-5 min)
 There's no formal written proposal step today (per `docs/SALES_PROCESS.md`) — the call itself is the close. Keep it simple and pressure-free:
@@ -102,5 +113,27 @@ There's no formal written proposal step today (per `docs/SALES_PROCESS.md`) — 
 - Either way, end warm: reaffirm that showing up for the call was itself a real step, regardless of outcome.
 
 ### Notes for Emilie / flags for docs
-- This call structure assumes no pricing conversation script exists yet — once pricing/payment plans are finalized in `docs/OFFERS.md`, this should be revisited to add a concrete, non-pressuring way to introduce the investment.
-- Suggest logging real objections/questions that come up on actual calls into `docs/ICP.md` and `docs/SALES_PROCESS.md` so future scripts stay grounded in real conversations rather than assumptions.
+- Suggest logging real objections/questions that come up on actual calls into `docs/ICP.md` and `docs/SALES_PROCESS.md` so future scripts stay grounded in real conversations rather than assumptions. In particular: if leads start asking about price in DMs before ever booking a call, that's a new pattern worth adding to `docs/SALES_PROCESS.md`'s booking flow section.
+
+---
+
+## Asset 3: Objection Responses — Price & Fit
+**Purpose:** Grounded, in-voice responses for the two real-pricing objections now documented in `docs/ICP.md`, for use live on the Clarity Call right after stating the investment (Asset 2, step 4), or in DM if a lead raises them there. These are starting points for Emilie to say in her own words, not a script to read verbatim.
+
+### "It's too expensive"
+Validate first, don't minimize the number, then open it back up as a conversation rather than a pitch.
+
+> "Totally hear you — it's a real amount of money, and I'd never want you to just brush past that. The program is €2,400 in full, or €450 a month over six months if that's easier to work into your life right now — either way works. Can I ask — is it more that the number itself feels like a stretch, or more that you're not yet sure it's worth it to you? Those are two different things, and I'd rather talk about the real one."
+
+**Grounding (per `docs/ICP.md`):** Priced intentionally low-mid for the market while Emilie is early-stage; payment plan exists; frame is "cost of staying stuck for another 6 months vs. investing once" — not a hard sell, and never phrased as "you can't afford not to."
+
+### "I'm not sure it'll work for me"
+Be honest about the size of the track record — don't oversell certainty that doesn't exist yet.
+
+> "That's such a fair thing to wonder, and honestly I'd be a little surprised if you weren't asking it. I can't promise you a specific outcome — nobody honestly can, and I won't pretend otherwise. What I can tell you is this isn't a vague 'just trust the process' thing — it's a structured 12-step path, and you're not doing it alone between sessions either, since I'm there on WhatsApp too. I've worked with a handful of clients through this so far — one told me she achieved every goal she'd set going in, another said she feels calmer and more in control of her emotions now. I'm still early in building out that track record and I'd rather be upfront about that than oversell it to you."
+
+**Grounding (per `docs/ICP.md` and `My profile/testimonials.md`):** Only 3 testimonials currently exist (Maja Lidholm, Anna Avela, Anna-Maria) — reference them honestly, in Emilie's own words, without fabricating details beyond what's documented. No guarantees of results, ever.
+
+### Notes for Emilie / flags for docs
+- `docs/ICP.md` also has a drafted response for "6 months is a big commitment" (length is the point; bi-weekly sessions + 24/7 WhatsApp support means it's not 6 months alone). Not scripted into its own objection block here since the task that produced this update focused on the two above — flag if Emilie wants a matching in-voice script drafted for that one too.
+- If real client phrasing for either objection comes up on actual calls, log it in `docs/ICP.md` so these responses stay grounded in real conversations rather than assumptions.
