@@ -1,0 +1,9 @@
+{
+  "name": "come-to-yourself",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "stripe": "^17.4.0",
+    "@neondatabase/serverless": "^0.10.4"
+  }
+}

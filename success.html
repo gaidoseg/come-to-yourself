@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>You're in — Emilie Gaidos Coaching</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --brown-deep:#3A2A1E;
+    --brown:#6B4A34;
+    --brown-soft:#9C7A5C;
+    --beige:#F4ECDD;
+    --white:#FFFFFF;
+    color-scheme: light;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--beige);
+    color:var(--brown-deep);
+    font-family:'Jost',sans-serif;
+    font-weight:300;
+    line-height:1.7;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+  }
+  .card{
+    max-width:560px;
+    background:var(--white);
+    border:1px solid var(--beige);
+    border-radius:4px;
+    padding:48px 40px;
+    text-align:center;
+  }
+  h1{
+    font-family:'Lora',serif;
+    font-weight:500;
+    font-size:28px;
+    margin:0 0 16px 0;
+  }
+  p{margin:0 0 16px 0;}
+  .muted{color:var(--brown-soft); font-size:14px;}
+  a{color:var(--brown); }
+  #status{min-height:1.7em;}
+</style>
+</head>
+<body>
+  <div class="wrap card">
+    <h1>You're in.</h1>
+    <div id="status">
+      <p>Confirming your payment&hellip;</p>
+    </div>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const sessionId = params.get('session_id');
+    const statusEl = document.getElementById('status');
+
+    if (!sessionId) {
+      statusEl.innerHTML = '<p>We couldn\'t find your order details. If you just completed a payment, check your email for a receipt, or reach out on Instagram <a href="https://www.instagram.com/emiliegaidos/" target="_blank" rel="noopener">@emiliegaidos</a>.</p>';
+    } else {
+      fetch('/api/session-status?session_id=' + encodeURIComponent(sessionId))
+        .then((r) => r.json())
+        .then((data) => {
+          if (data.status === 'paid') {
+            statusEl.innerHTML =
+              '<p>Thank you' + (data.email ? ' &mdash; a confirmation has been sent to <strong>' + data.email + '</strong>.' : '.') + '</p>' +
+              '<p>You\'ll receive access to your self-paced modules within 24 hours. In the meantime, if you have any questions, DM <a href="https://www.instagram.com/emiliegaidos/" target="_blank" rel="noopener">@emiliegaidos</a> on Instagram.</p>';
+          } else {
+            statusEl.innerHTML = '<p>Your payment is still processing. If this doesn\'t update shortly, reach out on Instagram <a href="https://www.instagram.com/emiliegaidos/" target="_blank" rel="noopener">@emiliegaidos</a>.</p>';
+          }
+        })
+        .catch(() => {
+          statusEl.innerHTML = '<p>We couldn\'t confirm your payment status automatically, but if you completed checkout, you should receive an email receipt shortly. Questions? DM <a href="https://www.instagram.com/emiliegaidos/" target="_blank" rel="noopener">@emiliegaidos</a>.</p>';
+        });
+    }
+  </script>
+</body>
+</html>

@@ -14,7 +14,15 @@
 - **Who it's for:** Women stuck in overthinking, people-pleasing, self-doubt, anxiety/disconnection — ready for deep change, not a quick fix
 - **Outcome promised:** Moving from "stuck, overwhelmed, disconnected" to "grounded, clear, and confident" — deep self-trust, inner peace, emotional freedom
 
-## Offer 2: _In-person workshops / sessions_
+## Offer 2: Self-Paced Program (name TBD)
+- **Format:** Self-paced, online, self-checkout — built 2026-11-01
+- **Price:** €450 one-time payment (public, shown on-site — unlike Offer 1, this price IS public since it's a direct self-serve purchase)
+- **What's included:** The same 12-module curriculum as "Come Home to Yourself," for self-coaching. No live sessions, no 24/7 WhatsApp support.
+- **Brand name:** Not yet decided by Emilie — site currently shows "Self-Paced Program (name coming soon)" as a placeholder. Update `api/create-checkout-session.js` (PRODUCT_NAME) and the site copy once named.
+- **Purchase flow:** Stripe Checkout (test mode as of 2026-11-01) → webhook records registration in Neon Postgres (`registrations` table) → customer sees confirmation on `/success.html`. Kajabi enrollment is manual for now (no Kajabi API wired up yet) — Emilie checks new registrations and enrolls manually until that's automated.
+- **Add-on:** Live 1:1 sessions on top of the self-paced modules are available as a **custom/curated-priced add-on**, arranged via the existing free Clarity Call (Calendly) — not a fixed public price.
+
+## Offer 3: _In-person workshops / sessions_
 - _Not yet defined — part of the "online + in-person" goal. Fill in once format/location/pricing is decided._
 
 ## Lead Magnet / Free Offer
